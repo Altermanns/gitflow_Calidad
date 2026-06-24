@@ -1,5 +1,8 @@
 public class Saludo {
-    public String generarSaludo(String nombre) {
-        return "¡Hola, " + nombre + "!";
+    public Sting generarSaludo (String nombre){
+        if ( nombre == null || nombre.is empty()){
+            return "Hola, Invalido"
+        }
+        return "Hola," +nombre+ "!";
     }
 }
